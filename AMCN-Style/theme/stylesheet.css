@@ -1,0 +1,16 @@
+/*
+phpBB-3.3.x StyleSheet based on Prosilver
+---------------------------------------------------------------------
+	Style name:			AMCN-Style
+	Based on style:		prosilver (the default phpBB 3.5.x style)
+	Original author:	Tom Beddard ( http://www.subblue.com/ )
+	Modified by:		Stephan Mahieu ( https://github.com/stephanmahieu )
+---------------------------------------------------------------------
+*/
+
+.site_logo {
+    background-image: url("./images/amcnlogo_transparant_letterbox.png");
+    background-size: 122px 70px;
+    width: 124px;
+    height: 75px;
+}
