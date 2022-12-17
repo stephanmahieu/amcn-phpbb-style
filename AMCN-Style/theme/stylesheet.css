@@ -8,6 +8,22 @@ phpBB-3.3.x StyleSheet based on Prosilver
 ---------------------------------------------------------------------
 */
 
+/* copy from prosilver's stylesheet.css but prefixed with relative path (fix for search windows and such) */
+@import url("../../prosilver/theme/normalize.css?hash=48eb3f89");
+@import url("../../prosilver/theme/base.css?hash=7c5543be");
+@import url("../../prosilver/theme/utilities.css?hash=d8f72c42");
+@import url("../../prosilver/theme/common.css?hash=a9741ba1");
+@import url("../../prosilver/theme/links.css?hash=cbeb92cc");
+@import url("../../prosilver/theme/content.css?hash=56f9e623");
+@import url("../../prosilver/theme/buttons.css?hash=5856472d");
+@import url("../../prosilver/theme/cp.css?hash=50d868ab");
+@import url("../../prosilver/theme/forms.css?hash=b64464fb");
+@import url("../../prosilver/theme/icons.css?hash=64da33ce");
+@import url("../../prosilver/theme/colours.css?hash=fcb2f289");
+@import url("../../prosilver/theme/responsive.css?hash=87b53e08");
+/* end of copy from prosilver's stylesheet.css */
+
+/* AMCN-Style customizations start down here */
 .site_logo {
     background-image: url("./images/amcnlogo_transparant_letterbox.png");
     background-size: 122px 70px;
